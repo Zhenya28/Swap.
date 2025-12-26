@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+currency-backend/node_modules/
+currency-mobile/node_modules/
+
+# Environment variables
+.env
+.env.local
+currency-backend/.env
+
+# Build outputs
+dist/
+build/
+.next/
+currency-backend/.next/
+
+# Expo
+.expo/
+.expo-shared/
+currency-mobile/.expo/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+
+# Database
+*.db
+*.sqlite
+
+# Prisma
+currency-backend/prisma/migrations/
